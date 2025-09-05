@@ -85,7 +85,7 @@ function HomePage() {
 
                     {people ?
                         
-                        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-1">
+                        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-1">
                             {
                                 people.map(person => (
                                     <Link key={person.id} to={`/person/${person.id}`} className="block overflow-hidden authorLink rounded-lg hover:scale-105 hover:z-10 duration-300 ease-in-out transition hover:opacity-90">
